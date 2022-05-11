@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MajorsController;
+
 
 namespace StudentsController {
     public class Student {
@@ -19,7 +19,8 @@ namespace StudentsController {
         //-----------------------
 
         public override string ToString() { //built in method to CW info
-            return $"ID[{ID}] | FirstName [{Firstname}] | LastName [{Lastname}] | Statecode [{StateCode}] | Major [{(Major is null ? "Undeclared" : Major.Description)}]";
+            return $"ID[{ID}] | FirstName [{Firstname}] | LastName [{Lastname}] | Statecode [{StateCode}] | GPA [{GPA}] | SAT [{SAT}] | Major [{(Major is null ? "Undeclared" : Major.Description)}]";
+            
         }
     }
 

@@ -1,5 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
-using MajorsController;
+
 
 namespace StudentsController {
     public class StudentController {
@@ -43,7 +43,7 @@ namespace StudentsController {
                 students.Add(student);
             }
             reader.Close();
-            SqlConnection.Close();
+          
             return students;
         }
         public Student GetStudentByPK(int studentID) {
@@ -67,7 +67,7 @@ namespace StudentsController {
             if (student.MajorID is null) { //if major in sql is null, converts to c# null and returns student without major
                 student.Major = null;
                 reader.Close();
-                SqlConnection.Close();
+                
                 return student;
             }
             var major = new Major();//if major not null, will do the rest of this to fill out major info
@@ -80,7 +80,7 @@ namespace StudentsController {
 
 
             reader.Close();
-            SqlConnection.Close();
+           
             return student;
 
         }

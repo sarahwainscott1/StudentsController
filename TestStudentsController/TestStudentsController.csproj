@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MajorController\MajorController.csproj" />
     <ProjectReference Include="..\StudentsController\StudentsController.csproj" />
   </ItemGroup>
 

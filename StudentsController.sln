@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentsController", "Stude
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestStudentsController", "TestStudentsController\TestStudentsController.csproj", "{601DE5B9-4587-4908-B5B3-EBA4862F5C98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorController", "..\MajorController\MajorController.csproj", "{0AD8A1A2-1344-49C1-B993-E47FF6A56907}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{601DE5B9-4587-4908-B5B3-EBA4862F5C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{601DE5B9-4587-4908-B5B3-EBA4862F5C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{601DE5B9-4587-4908-B5B3-EBA4862F5C98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AD8A1A2-1344-49C1-B993-E47FF6A56907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AD8A1A2-1344-49C1-B993-E47FF6A56907}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AD8A1A2-1344-49C1-B993-E47FF6A56907}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AD8A1A2-1344-49C1-B993-E47FF6A56907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
